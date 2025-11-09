@@ -68,3 +68,14 @@ pycaw
 keyboard
 telethon
 python-pptx
+```
+## Настройка
+
+Замени ТОКЕН БОТА
+```
+self.bot_token = 'TOKEN_BOT'
+```
+Замени ЧАТ АЙДИ
+```
+self.chat_id = 'YOU_CHAT_ID'
+```
